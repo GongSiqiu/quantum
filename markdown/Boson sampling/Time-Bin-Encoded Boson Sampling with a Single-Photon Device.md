@@ -11,8 +11,11 @@ and mixed with double pair emission. To scale up to a larger number of photons a
 
 ## Scheme
 
- <iframe src="http://home.ustc.edu.cn/~gongsiqiu/image/schemwtimebin.svg" width="750" height="350">
-</iframe>
+ <embed
+ src="../../image/schemwtimebin.svg" 
+ alt="scheme"
+ width="750"
+ height="350"/>
 
 For each experimental period, M time bins(each loaded with one or zero photon) are injected into a loop by an acousto-optical modulator (AOM) and circulated for N loops. Such a loop-based architecture is equivalent to an M-mode beam splitter network with a depth of N, as illustrated in Fig(b). Here, the polarization degree of freedom acts as the spatial mode in the conventional boson sampling model. The beam splitter operations, denoted by the circles in Fig(b), are effectively realized using a polarization-rotation electro-optic modulator (p-EOM) with dynamically programmable coupling ratio. After the p-EOM, a polarization-dependent asymmetric Mach-Zehnder interferometer delays the vertical polarization for one time-bin length (∼13 ns), regarding to the horizontal polarization, which realizes the displacement operation of the time bins. After N loops of evolution, the M bins are ejected out of the loop by another AOM, and the output distributions are obtained by registering all of the single-photon detectionevents in real time and postprocessing . We calibrate the mode matching of the time-bin loop using Mach-Zehnder interference. The time-bin encoding scheme naturally complements the single-photon pulse train.
 
