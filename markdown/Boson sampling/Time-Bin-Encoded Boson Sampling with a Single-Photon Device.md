@@ -12,7 +12,7 @@ and mixed with double pair emission. To scale up to a larger number of photons a
 ## Scheme
 
  <embed
- src="../../image/schemwtimebin.svg" 
+ src="../image/schemwtimebin.svg" 
  alt="scheme"
  width="750"
  height="350"/>
