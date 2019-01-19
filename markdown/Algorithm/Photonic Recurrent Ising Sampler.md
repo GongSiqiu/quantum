@@ -1,2 +1,0 @@
-# Photonic Recurrent Ising Sampler
-

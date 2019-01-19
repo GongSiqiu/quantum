@@ -1,2 +1,0 @@
-# Boson sampling
-
