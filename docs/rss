@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[The note of quantum]]></title>
+        <description><![CDATA[Record the note when I read the papers about quantum]]></description>
+        <link>http://home.ustc.edu.cn/~gongsiqiu/_book/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 19 Feb 2019 14:01:28 GMT</lastBuildDate>
+        <atom:link href="http://home.ustc.edu.cn/~gongsiqiu/_book/rss" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[Gong Siqiu (龚思秋)]]></author>
+        <managingEditor><![CDATA[gongsiqiu@mail.ustc.edu.cn]]></managingEditor>
+        <webMaster><![CDATA[gongsiqiu@mail.ustc.edu.cn]]></webMaster>
+        <category><![CDATA[quantum]]></category>
+        <item>
+            <title><![CDATA[Introduction]]></title>
+            <description><![CDATA[This website is a notebook. I write it to sort out the papers I have read.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Basic Knowledge]]></title>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/README.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/README.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Basic knowledge]]></title>
+            <description><![CDATA[{% pdf src="../asserts/note.pdf", width="120%", height="850" %}{% endpdf %}]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/basic.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/basic.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Experimental Realization of Wheeler's Delayed-Choice Gedanken Experiment{{"Jacques2007"|cite}}]]></title>
+            <description><![CDATA[We report the
+realization of such a delayed-choice experiment
+in a scheme close to the ideal original proposal.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/Experimental Realization of Wheeler&apos;s Delayed-Choice Gedanken Experiment.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/Experimental Realization of Wheeler&apos;s Delayed-Choice Gedanken Experiment.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Measurement of Subpicosecond Time Intervals between Two Photons by Interference {{"Hong1987"|cite}}]]></title>
+            <description><![CDATA[This experiment is widely used to ensure the indistinguishability of two bosonic particles in the experiment.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/Measurement of Subpicosecond Time Intervals between Two Photons by Interference.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/Measurement of Subpicosecond Time Intervals between Two Photons by Interference.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Probing Quantum Commutation Rules by Addition and Subtraction of Single Photons to/from a Light Field {{"Parigi2007"|cite}}]]></title>
+            <description><![CDATA[As the final states depend on the order in which the two actions are performed, we directly
+observed the noncommutativity of the creation and annihilation operators]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/Probing Quantum Commutation Rules by Addition and Subtraction of Single Photons to or from a Light Field.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/Probing Quantum Commutation Rules by Addition and Subtraction of Single Photons to or from a Light Field.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Ruling Out Multi-Order Interference in Quantum Mechanics{{"Sinha2010"|cite}}]]></title>
+            <description><![CDATA[This article ruled out third- and higher-order interference and providing a bound on the accuracy of Born's rule.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/Ruling Out Multi-Order Interference in Quantum Mechanics.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/1-Basic knowledge/Ruling Out Multi-Order Interference in Quantum Mechanics.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Single-photon sources]]></title>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/README.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/README.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[New High-Intensity Source of Polarization-Entangled Photon Pairs{{"Kwiat1995"|cite}}]]></title>
+            <description><![CDATA[We report on a high-intensity source of polarization-entangled photon pairs with high momentum
+definition.Type-ll noncollinear phase matching in parametric down conversion produces true
+entanglement: No part of the wave function must be discarded, in contrast to previous schemes.
+With two-photon fringe visibilities in excess of 97%, we demonstrated a violation of Bell’s inequality
+by over 100 standard deviations in less than 5 min. The new source allowed ready preparation of all
+four of the EPR-Bell states.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/New High-Intensity Source of Polarization-Entangled Photon Pairs.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/New High-Intensity Source of Polarization-Entangled Photon Pairs.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Push-button photon entanglement{{"Lu2014"|cite}}]]></title>
+            <description><![CDATA[The ideal source will have the following
+four characteristics. (i) Deterministic
+generation — on a pulsed excitation, the
+source should emit one, and only one, pair
+of entangled photons with a vanishingly
+small chance of multi-pair emission. (ii)
+High fidelity — the created two-photon state
+should closely resemble the ideal desired
+entangled state. (iii) Indistinguishability —
+individual photons emitted in different trials
+should be quantum mechanically identical to
+each other. (iv) High collection efficiency —
+radiated photons should be extracted with a
+high efficiency so that they are not lost.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/Push-button photon entanglement.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/Push-button photon entanglement.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Boson sampling]]></title>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/README.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/README.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Interference of identical particles from entanglement to boson-sampling{{"Tichy2014"|cite}}]]></title>
+            <description><![CDATA[This tutorial introduces the physics of many-boson and many-fermion interference required for the description of current experiments and for the understanding of novel approaches to quantum computing.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Time-Bin-Encoded Boson Sampling {{"He2017"|cite}}]]></title>
+            <description><![CDATA[An intrinsic problem in the SPDC, however,is that the photon pairs are generated probabilistically,
+and mixed with double pair emission. To scale up to a larger number of photons and fast sampling rate, a more efficient route is to use single-photon sources that emit one and only one photon each time. Here is quantum dot(QD) micropillar.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Time-Bin-Encoded Boson Sampling with a Single-Photon Device.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Time-Bin-Encoded Boson Sampling with a Single-Photon Device.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Quantum manipulation]]></title>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/README.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/README.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[12-photon entanglement and scalable scattershot boson sampling with optimal entangled-photon pairs from parametric downconversion{{"Zhong2018a"|cite}}]]></title>
+            <description><![CDATA[In the view of quantum engineering,
+the single photons should be efficiently prepared in a pure state with a single degree of
+freedom. However, usually the uncontrolled entanglement in the frequency and/or time
+can significantly degrade the entanglement in the polarization.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/12-photon entanglement and scalable scattershot boson sampling with optimal entangled-photon pairs from parametric down-conversion.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/12-photon entanglement and scalable scattershot boson sampling with optimal entangled-photon pairs from parametric down-conversion.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Quantum copying: Beyond the no-cloning theorem{{"Bu_ek_1996"|cite}}]]></title>
+            <description><![CDATA[We analyze the possibility of copying (that is, cloning) arbitrary states of a quantum-mechanical spin-1/2
+system.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/Quantum copying: Beyond the no-cloning theorem.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/Quantum copying: Beyond the no-cloning theorem.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels {{"Bennett1993"|cite}}]]></title>
+            <description><![CDATA[An unknown quantum state $$|\phi \rangle$$ can be disassembled into, then later reconstructed from, purely
+classical information and purely nonclassical Einstein-Podolsky-Rosen (EPR) correlations. To do
+so the sender, “Alice,” and the receiver, “Bob,” must prearrange the sharing of an EPR—correlated
+pair of particles. Alice makes a joint measurement on her EPR particle and the unknown quantum
+system, and sends Bob the Classical result of this measurement. Knowing this, Bob can convert the
+state of his EPR particle into an exact replica of the unknown state $$|\phi \rangle$$ which Alice destroyed.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Algorithm]]></title>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/5-Algorithm/README.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/5-Algorithm/README.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Photonic Recurrent Ising Sampler]]></title>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/5-Algorithm/Photonic Recurrent Ising Sampler.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/5-Algorithm/Photonic Recurrent Ising Sampler.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Quantum communication]]></title>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/6-Quantum communication/README.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/6-Quantum communication/README.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Communication via one- and two-particle operators on Einstein-Podolsky-Rosen states{{"Bennett1992a"|cite}}]]></title>
+            <description><![CDATA[As is well known, operations on one particle of an Einstein-Podolsky-Rosen (EPR) pair cannot
+influence the marginal statistics of measurements on the other particle. We characterize the set of states
+accessible from an initial EPR state by one-particle operations and show that in a sense they allow two
+bits to be encoded reliably in one spin$$-\frac{1}{2}$$ particle: One party, “Alice,” prepares an EPR pair and sends
+one of the particles to another party, “Bob,” who applies one of four unitary operators to the particle,
+and then returns it to Alice. By measuring the two particles jointly, Alice can now reliably learn which
+operator Bob used.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/6-Quantum communication/Communication via one- and two-particle operators on Einstein-Podolsky-Rosen states.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/6-Quantum communication/Communication via one- and two-particle operators on Einstein-Podolsky-Rosen states.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Quantum Cryptography Using Any Two Nonorthogonal States{{"Bennett1992"|cite}}]]></title>
+            <description><![CDATA[Here we show that in principle any two nonorthogonal quantum states
+suffice, and describe a practical interferometric realization using low-intensity coherent light pulses.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/6-Quantum communication/Quantum Cryptography Using Any Two Nonorthogonal States.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/6-Quantum communication/Quantum Cryptography Using Any Two Nonorthogonal States.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Reference]]></title>
+            <description><![CDATA[{% references %}]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/References.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/References.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+    </channel>
+</rss>
