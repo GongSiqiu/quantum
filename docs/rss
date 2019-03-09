@@ -4,7 +4,7 @@
         <description><![CDATA[Record the note when I read the papers about quantum]]></description>
         <link>http://home.ustc.edu.cn/~gongsiqiu/_book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 Feb 2019 14:01:28 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Mar 2019 10:02:23 GMT</lastBuildDate>
         <atom:link href="http://home.ustc.edu.cn/~gongsiqiu/_book/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Gong Siqiu (龚思秋)]]></author>
         <managingEditor><![CDATA[gongsiqiu@mail.ustc.edu.cn]]></managingEditor>
@@ -113,6 +113,19 @@ high efficiency so that they are not lost.]]></description>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
         <item>
+            <title><![CDATA[Multi-photon entanglement and interferometry {{"Pan2012"|cite}}]]></title>
+            <description><![CDATA[Multi-photon interference reveals strictly non-classical phenomena. Its applications range from
+fundamental tests of quantum mechanics to photonic quantum information processing, where a
+significant fraction of key experiments achieved so far comes from multi-photon state manipulation. We review the progress, both theoretical and experimental, of this rapidly advancing
+research. The emphasis is given to the creation of photonic entanglement of various forms, tests
+of the completeness of quantum mechanics (in particular, violations of local realism), quantum
+information protocols for quantum communication (e.g., quantum teleportation, entanglement purification and quantum repeater), and quantum computation with linear optics. We shall limit the
+scope of our review to “few photon” phenomena involving measurements of discrete observables.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Multi-photon entanglement and interferometry.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Multi-photon entanglement and interferometry.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
             <title><![CDATA[Time-Bin-Encoded Boson Sampling {{"He2017"|cite}}]]></title>
             <description><![CDATA[An intrinsic problem in the SPDC, however,is that the photon pairs are generated probabilistically,
 and mixed with double pair emission. To scale up to a larger number of photons and fast sampling rate, a more efficient route is to use single-photon sources that emit one and only one photon each time. Here is quantum dot(QD) micropillar.]]></description>
@@ -134,6 +147,42 @@ freedom. However, usually the uncontrolled entanglement in the frequency and/or 
 can significantly degrade the entanglement in the polarization.]]></description>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/12-photon entanglement and scalable scattershot boson sampling with optimal entangled-photon pairs from parametric down-conversion.html</link>
             <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/12-photon entanglement and scalable scattershot boson sampling with optimal entangled-photon pairs from parametric down-conversion.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Experimental Entanglement Swapping: Entangling Photons That Never Interacted{{"Pan1998"|cite}}]]></title>
+            <description><![CDATA[We experimentally entangle freely propagating particles that never physically interacted with one
+another or which have never been dynamically coupled by any other means. This demonstrates that
+quantum entanglement requires the entangled particles neither to come from a common source nor to
+have interacted in the past. In our experiment we take two pairs of polarization entangled photons and
+subject one photon from each pair to a Bell-state measurement. This results in projecting the other two
+outgoing photons into an entangled state.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/Experimental Entanglement Swapping: Entangling Photons That Never Interacted.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/Experimental Entanglement Swapping: Entangling Photons That Never Interacted.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Experimental quantum teleportation {{"Bouwmeester1997"|cite}}]]></title>
+            <description><![CDATA[Quantum teleportation—the transmission and reconstruction over arbitrary distances of the state of a quantum
+system—is demonstrated experimentally. During teleportation, an initial photon which carries the polarization that is to
+be transferred and one of a pair of entangled photons are subjected to a measurement such that the second photon of
+the entangled pair acquires the polarization of the initial photon. This latter photon can be arbitrarily far away from the
+initial one. Quantum teleportation will be a critical ingredient for quantum computation networks.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/Experimental quantum teleportation.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/Experimental quantum teleportation.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Observation of Three-Photon Greenberger-Horne-Zeilinger Entanglement {{"Bouwmeester1999"|cite}}]]></title>
+            <description><![CDATA[We present the experimental observation of polarization entanglement for three spatially separated
+photons. Such states of more than two entangled particles, known as Greenberger-Horne-Zeilinger
+(GHZ) states, play a crucial role in fundamental tests of quantum mechanics versus local realism and
+in many quantum information and quantum computation schemes. Our experimental arrangement is
+such that we start with two pairs of entangled photons and register the photons in a way that any
+information as to which pair each photon belongs to is erased. After detecting a trigger photon, the
+registered events at the detectors for the remaining three photons exhibit the desired GHZ correlations.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/Observation of Three-Photon Greenberger-Horne-Zeilinger Entanglement.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/4-Quantum manipulation/Observation of Three-Photon Greenberger-Horne-Zeilinger Entanglement.html</guid>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
         <item>
@@ -193,6 +242,17 @@ operator Bob used.]]></description>
 suffice, and describe a practical interferometric realization using low-intensity coherent light pulses.]]></description>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/6-Quantum communication/Quantum Cryptography Using Any Two Nonorthogonal States.html</link>
             <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/6-Quantum communication/Quantum Cryptography Using Any Two Nonorthogonal States.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Quantum secret sharing {{"Hillery1999"|cite}}]]></title>
+            <description><![CDATA[Secret sharing is a procedure for splitting a message into several parts so that no subset of parts is sufficient
+to read the message, but the entire set is. We show how this procedure can be implemented using Greenberger-
+Horne-Zeilinger (GHZ) states. In the quantum case the presence of an eavesdropper will introduce errors so
+that his presence can be detected. We also show how GHZ states can be used to split quantum information into
+two parts so that both parts are necessary to reconstruct the original qubit.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/6-Quantum communication/Quantum secret sharing.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/6-Quantum communication/Quantum secret sharing.html</guid>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
         <item>
