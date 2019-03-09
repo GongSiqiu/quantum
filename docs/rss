@@ -4,7 +4,7 @@
         <description><![CDATA[Record the note when I read the papers about quantum]]></description>
         <link>http://home.ustc.edu.cn/~gongsiqiu/_book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 09 Mar 2019 10:02:23 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Mar 2019 10:05:44 GMT</lastBuildDate>
         <atom:link href="http://home.ustc.edu.cn/~gongsiqiu/_book/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Gong Siqiu (龚思秋)]]></author>
         <managingEditor><![CDATA[gongsiqiu@mail.ustc.edu.cn]]></managingEditor>
@@ -68,6 +68,31 @@ observed the noncommutativity of the creation and annihilation operators]]></des
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
         <item>
+            <title><![CDATA[High-efficiency single-photon generation via large-scale active time multiplexing {{"Kaneda2018"|cite}}]]></title>
+            <description><![CDATA[On-demand generation of indistinguishable single- and multi-photon states
+is a key technology for scaling up optical quantum information and commu-
+nication applications. Nonlinear parametric photon-pair sources and heralded
+single-photon sources (HSPSs) had been the most standard resource of quantum
+information applications for decades. However, the intrinsic uncertainty of
+the produced number of photon pairs in such sources is a critical drawback that
+prevents on-demand photon-pair and heralded single-photon generation. Here
+we demonstrate large-scale time multiplexing of indistinguishable heralded sin-
+gle photons, employing a low-loss HSPS and adjustable delay line. We observed
+66.7±2.4% presence probability of single-photon states collected into a singlemode optical fiber by multiplexing 40 periodic time bins of heralded single pho-
+tons. To our knowledge, this is the highest fiber-coupled single-photon probabil-
+ity achieved to date. A high indistinguishability (∼90%) of our time-multiplexed
+photons has also been confirmed. We also experimentally investigate trade-off
+relations of single-photon probability and unwanted multiphoton contribution
+by using different pump powers for a HSPS. Our results demonstrate that low-loss, large-scale multiplexing can realize highly efficient single-photon generation
+as well as highly scalable multi-photon generation from inefficient HSPSs. We
+predict that our large-scale time multiplexing will pave the way toward genera-
+tion of > 30 coincident photons with unprecedented efficiencies, enabling a new
+frontier in optical quantum information processing.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/High-efficiency single-photon generation via large-scale active time multiplexing.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/High-efficiency single-photon generation via large-scale active time multiplexing.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
             <title><![CDATA[New High-Intensity Source of Polarization-Entangled Photon Pairs{{"Kwiat1995"|cite}}]]></title>
             <description><![CDATA[We report on a high-intensity source of polarization-entangled photon pairs with high momentum
 definition.Type-ll noncollinear phase matching in parametric down conversion produces true
@@ -97,6 +122,15 @@ radiated photons should be extracted with a
 high efficiency so that they are not lost.]]></description>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/Push-button photon entanglement.html</link>
             <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/Push-button photon entanglement.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Tailoring single-photon and multiphoton probabilities of a single-photon on-demand source{{"Migdall2002"|cite}}]]></title>
+            <description><![CDATA[We describe
+a multiplexed system that allows the probabilities of producing one and more photons to be adjusted
+independently, enabling a much better approximation of a source of single photons on demand.]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/Tailoring single-photon and multiphoton probabilities of a single-photon on-demand source.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/2-Single-photon sources/Tailoring single-photon and multiphoton probabilities of a single-photon on-demand source.html</guid>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
         <item>
