@@ -294,3 +294,9 @@ complexity of many-boson scattering in comparison to the
 analogous problem with fermions is rooted in the absence
 of symmetries of the permanent compared to the more
 benevolent determinant. 
+
+Our strategy to devise a solvable
+instance of boson-sampling therefore relies on imposing
+artificial symmetries on the scattering matrix  $$U$$, which then
+allows us to exactly compute the permanent of the pertinent
+submatrices in a large number of cases.
