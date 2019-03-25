@@ -44,7 +44,7 @@ $$
 with $$|a|^2+|b|^2=1$$. The complete state of the three
 particles before Alice’s measurement is thus
 $$
-|\Psi_{123}=\frac{a}{\sqrt{2}}(|\uparrow_1 \rangle|\uparrow_2 \rangle|\downarrow_3 \rangle-|\uparrow_1 \rangle|\downarrow_2 \rangle|\uparrow_3 \rangle)+\frac{b}{\sqrt{2}}(|\downarrow_1 \rangle|\uparrow_2 \rangle|\downarrow_3 \rangle-|\downarrow_1 \rangle|\downarrow_2 \rangle|\uparrow_3 \rangle)
+|\Psi_{123}\rangle=\frac{a}{\sqrt{2}}(|\uparrow_1 \rangle|\uparrow_2 \rangle|\downarrow_3 \rangle-|\uparrow_1 \rangle|\downarrow_2 \rangle|\uparrow_3 \rangle)+\frac{b}{\sqrt{2}}(|\downarrow_1 \rangle|\uparrow_2 \rangle|\downarrow_3 \rangle-|\downarrow_1 \rangle|\downarrow_2 \rangle|\uparrow_3 \rangle)
 $$
 In this equation, each direct product $$|\phantom{\downarrow}_1 \rangle|\phantom{\downarrow}_2 \rangle$$ can be expressed in terms of the Bell operator basis vectors $$|\Phi_{12}^{(\pm)}\rangle$$
 and $$|\Psi_{12}^{(\pm)}\rangle$$, and we obtain

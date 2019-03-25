@@ -7,6 +7,7 @@ research. The emphasis is given to the creation of photonic entanglement of vari
 of the completeness of quantum mechanics (in particular, violations of local realism), quantum
 information protocols for quantum communication (e.g., quantum teleportation, entanglement purification and quantum repeater), and quantum computation with linear optics. We shall limit the
 scope of our review to “few photon” phenomena involving measurements of discrete observables.
+
 ## INTERFERENCE AND QUANTUM ENTANGLEMENT
 We discuss here the basic differences between the classical interference understood as interference of electro-magnetic
 waves in space, and the quantum one which is interference of various operationally indistinguishable processes.
@@ -492,4 +493,252 @@ option is to encode three two-state quantum systems in
 distinct degrees of freedom of only two photons. The second option is to find suitable EPR elements of reality
 in the two particle case, and to show that they are internally inconsistent. A third protocol of the two-observer GHZ-like the-
 orem uses a two-photon hyper-entanglement.
+
+### Refutation of a class of nonlocal realistic theories
+
+Let us discuss the description of the polarization of
+photons within such theories. The following assumptions
+are made: (L 1 ) realism, (L 2 ) physical states are statistical mixtures of subensembles with definite polarizations,
+(L 3 ) local expectation values for polarization measurements taken for each subensemble obey Malus' law. Importantly, locality is not assumed. 
+
+Leggett-type
+inequality
+
+$$
+\begin{array}{l}{S_{N L H V} \equiv\left|E_{11}(\varphi)+E_{23}(0)\right|+\left|E_{22}(\varphi)+E_{23}(0)\right|} \\ { \leq 4-\frac{4}{\pi}\left|\sin \frac{\varphi}{2}\right|}\end{array}
+$$
+where $$ 
+E_{k l}(\varphi)
+ $$ is a uniform average of all correlation functions, defined in the plane of $$ 
+\mathbf{a}_{k}
+ $$ and $$ 
+\mathbf{b}_{l}
+ $$ , with the same
+relative angle $$\varphi $$. Inequalities avoiding the averaging were
+also derived and tested. For the inequality to be applicable, the vectors
+$$ \mathbf{a}_{1}
+ $$ and $$ \mathbf{b}_{1}$$
+  necessarily have to lie in a plane orthogonal
+to the one defined by $$ 
+\mathbf{a}_{2}
+ $$ and $$ 
+\mathbf{b}_{2}
+  $$. This contrasts with the
+CHSH inequality.
+
+## QUANTUM COMMUNICATION
+
+Quantum communication ultimately aims at absolute
+security and faithful transfer of information, classical or
+quantum.
+
+### Quantum dense coding
+
+The idea of quantum dense coding  is that, by manipulating
+only one of the two particles in a Bell state, one can also
+encode two bits of information.
+
+The procedure runs as follows:
+
+Step 1. Sharing maximal entanglement. A maximally
+entangled qubit pair (say, in the state $$ 
+| \psi^{+} \rangle_{A B}
+ $$ ) is shared
+by Alice and Bob (Fig. 31). They agree in advance
+that $$ 
+| \psi^{-} \rangle_{A B}, \phi^{-} \rangle_{A B}, \phi^{+} \rangle_{A B}, \text { and } | \psi^{+} \rangle_{A B}
+ $$ respectively
+represent the binary numbers 00, 01, 10, and 11.
+
+Step 2. Coding of the message. According to the value
+Bob wants to transmit to Alice, he performs one out of
+four possible unitary transformations (identity operation
+$$ \hat{I}, \sigma_{x}, \sigma_{y}, \text { and } \sigma_{z}
+ $$) on his qubit B alone. The three non-
+I,
+identity operations transform, in an one-to-one way, the
+original state $$ 
+| \psi^{+} \rangle_{A B}
+ $$ , respectively, into $$ 
+| \phi^{+} \rangle_{A B}, \phi^{-} \rangle_{A B}
+ $$ ,
+and $$ 
+| \psi^{-} \rangle_{A B}
+ $$ . Once this is done, Bob sends his qubit to
+Alice. Note that this possibility of transforming any of
+the four basis states to any other by only manipulating
+one of the two qubits holds only for the maximally entangled states. For product (and classical) states it is
+always necessary to have control over both qubits (bits)
+to encode two bits in four distinguishable states.
+
+Step 3. Decoding of the message. Upon reception, Alice performs a Bell-state measurement, distinguishing between the four code-states and thus allowing her to read
+out both bits of information. The quantum dense coding doubles the information capacity of the transmission
+channel: what is actually sent is only one qubit. This
+more efficient way of coding information at first glance
+seems to be at odds with the Holevo theorem (1973),
+which states that maximally one bit can be encoded on a
+single qubit. Entanglement, a property of pairs of qubits,
+allows to circumvent this theorem and to encode infor-
+mation entirely in the relative properties of the pair, i.e.
+in their correlations.
+
+###  Quantum teleportation
+
+#### Theory: qubit teleportation involving an EPR channel and two bit transfer
+see [this](https://gongsiqiu.github.io/quantum/4-Quantum%20manipulation/Teleporting%20an%20unknown%20quantum%20state%20via%20dual%20classical%20and%20Einstein-Podolsky-Rosen%20channels.html) and [this](https://gongsiqiu.github.io/quantum/4-Quantum%20manipulation/Experimental%20quantum%20teleportation.html)
+
+#### Open-destination quantum teleportation
+
+The so-called
+open-destination teleportation is a protocol allowing to transfer a state to
+one of several potential recipients. It can be decided who
+gets the state even after the initial to-be-teleported state,
+$$ | x \rangle
+ $$, is wiped out in a Bell-state measurement.
+
+Figure 24 shows the basic scheme. One uses a quantum
+channel in form of a N +1 qubit GHZ state, say for N = 3
+and for polarization qubits:
+$$
+| \Phi \rangle_{2345}=\frac{1}{\sqrt{2}}( |H\rangle_{2} | H \rangle_{3} | H \rangle_{4} | H \rangle_{5}+| V \rangle_{2} | V \rangle_{3} | V \rangle_{4} | V \rangle_{5} )
+$$
+and requires, as always, a transfer of two bit classical information. The polarization state to-be-teleported
+$$ | \chi \rangle_{1}=\alpha | H \rangle_{1}+\beta | V \rangle_{1}
+ $$ is first encoded into an N -particle
+coherent superposition of these GHZ particles. By making a Bell state measurement on, say, photons 1 and
+2, one projects the remaining photons into one of four
+states. E.g. whenever the result of the Bell-state measurement is a $$ 
+\psi^{+}
+ $$ state, one gets
+$$
+\frac{1}{\sqrt{2}}(\beta | H\rangle_{3} | H \rangle_{4} | H \rangle_{5}+\alpha | V \rangle_{3} | V \rangle_{4} | V \rangle_{5} )
+$$
+The state $$ 
+| \chi \rangle
+ $$ can be read out at any of the three par-
+ticles, by performing a suitable projection measurement
+on N − 1 of them, here on 2, and a unitary transformation dependent of the received two bits of data, which is carried out on one of the GHZ particles.  Assume
+that we want to transfer our state to particle 5. To this
+end upon the receipt of information concerning the result
+of the BSM, the partner 5 must perform on his particle
+a $$ 
+\sigma_{x}
+ $$ transformation which interchanges polarizations H
+and V . The partners
+ 3 and 4 make measurements in the
+$$ | \pm \rangle=( |H\rangle \pm | V \rangle ) / \sqrt{2}
+ $$ basis. The recipient of the state
+is informed about the measurement results . Once the
+recipient gets this additional information, only if there
+was just one result associated with a projection to $$ 
+|-\rangle
+ $$,
+he/she performs the sign flipping $$\sigma_z​$$ transformation. The
+state is recovered.
+
+### Entanglement swapping
+
+#### Theory
+
+Entanglement swapping, together with entanglement purification, is a key element of the quantum repeater protocol and opens
+a way to efficiently distribute entanglement for massive
+particles. 
+$$
+\begin{array}{c}{\Psi \rangle_{1234}=\frac{1}{2}( |\psi^{+}\rangle_{14} | \psi^{+} \rangle_{23}-| \psi^{-} \rangle_{14} | \psi^{-} \rangle_{23}} \\ {-| \phi^{+} \rangle_{14} | \phi^{+} \rangle_{23}+| \phi^{-} \rangle_{14} | \phi^{-} \rangle_{23}}\end{array}
+$$
+Namely, as soon as Al-
+ice completes the Bell-state measurement on particles 2
+and 3, we know that photons 1 and 4 are on their way,
+ready for detection in an entangled state. In this way
+one has the possibility to perform an event-ready test of
+Bell’s inequality
+
+Halder et al. (2007) took a different approach to achieve entanglement swapping by a
+precise time measurement. The photon detector used in
+the experiment was a niobium nitride superconducting
+single photon detector with a time resolution of 74ps .
+The photons were filtered using 10pm-bandwidth filters,
+which corresponds to a coherence time of 350ps well
+above the temporal resolution of the detectors. Hence,
+ultra-coincidence photon timing could be obtained, and
+pulsed sources could be replaced by continuous-wave
+sources, which do not require any synchronization.
+
+### Beating noisy environment
+
+An important tool to overcome the noise in the quan-
+tum communication channel is entanglement distillation,
+concentration and purification
+
+#### Entanglement distillation and concentration
+
+Entanglement concentration aims to obtain with a
+nonzero probability a higher entanglement from pure
+states with a lower entanglement. There are two methods to achieve this. The first is the so-called Procrustean
+method. It requires that the photon pairs are all in a pure non-maximally entangled state,
+say, $$ 
+| \Psi \rangle_{\text { nonmax }}=\alpha | H \rangle | V \rangle+\beta | V \rangle | H \rangle
+ $$, where $$\alpha$$ and $$\beta$$ are
+two known amplitudes. In this case, the scheme only involves local filtering operations on single pairs. Second, the Schmidt decomposition scheme works for photon
+pairs that are all in a pure but unknown non-maximally
+entangled state $$ 
+| \Psi \rangle_{\text { nonmax }}
+ $$ . In practice, this scheme is
+more difficult to implement as it requires simultaneous
+collective measurements on many photons.
+
+####  Entanglement purification
+
+The underlying idea of entanglement purification is
+that, by using local operations and classical commu-
+nication (LOCC) only, to extract from multiple copies
+of imperfect states (arbitrary mixed states) fewer copies
+of entangled state asymptotically to near-unity fidelity.
+
+The linear-optical purification scheme [shown in Fig.
+28(b)] will be presented here using a specific example.
+Let our initial state be
+$$
+\rho_{a b}=F | \phi^{+} \rangle_{a b}\left\langle\phi^{+}|+(1-F)| \psi^{-}\right\rangle_{a b}\left\langle\psi^{-}|\right.
+$$
+where $$ 
+| \psi^{-} \rangle_{a b}
+ $$ is an unwanted admixture. The subscripts
+a and b indicate the particles at Alice's and Bob's locations, respectively.
+
+Alice and Bob share a big number of pairs described
+by $$ 
+\rho_{a b}
+ $$ . They start by picking at random two such pairs.
+Each of them superimposes their photons on a PBS. An
+essential step in the purification scheme is to select those
+cases for which there is exactly one photon in each of
+the four spatial output modes. We shall refer to them
+as “four-mode cases”. This corresponds to a projection
+onto the subspace in which two photons at the same experimental location (Alice’s or Bob’s) have equal polarization. This is similar to the bilateral CNOT-operation
+of the original scheme. Note that the polarizations at
+two different locations do not have to be the same. After
+performing the purification procedure (selection of four-
+mode cases, measurements in modes a4 and b4 in the
++/− basis, and local operations conditional on the mea-
+surement results), Alice and Bob will finally create a new
+ensemble described by the density operator
+$$
+\rho_{a b}^{\prime}=F^{\prime} | \phi^{+} \rangle_{a b}\left\langle\phi^{+}\left|+\left(1-F^{\prime}\right)\right| \psi^{-}\right\rangle_{a b}\left\langle\psi^{-}|\right.
+$$
+with a larger fidelity $$ 
+F^{\prime}=F^{2} /\left[F^{2}+(1-F)^{2}\right]
+ $$ ] (for
+$$ F>1 / 2
+ $$) of pairs in the desired state than before thepurification.
+
+Though it seems that only a rather special example, single bit-flip error, has been considered, the same
+method actually applies to the arbitrary mixed states
+ρ ab , provided that they contain a sufficiently large fraction F > 1/2 of photon pairs in a maximally entangled state. This works as follows: one can first purify
+away single bit-flip errors; phase errors can then be easily transformed into bit-flip errors by a $$ 
+45^{\circ}
+ $$ polarization
+rotation and treated in a subsequent purification step. 
+
+![purification](../image/purification.png)
 
