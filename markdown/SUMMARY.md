@@ -28,4 +28,9 @@
   * [Communication Via One And Two Particle Operators On Einstein Podolsky Rosen States](6-Quantum communication/Communication via one- and two-particle operators on Einstein-Podolsky-Rosen states.md)
   * [Quantum Cryptography Using Any Two Nonorthogonal States](6-Quantum communication/Quantum Cryptography Using Any Two Nonorthogonal States.md)
   * [Quantum Secret Sharing](6-Quantum communication/Quantum secret sharing.md)
-* [References](References.md)
+* [References](References.md) 
+
+## Lab Weekly Journal 
+ - [Lab Weekly Journal](9-Lab weekly journal/README.md)
+  * [4.1~4.7](9-Lab weekly journal/4.1~4.7.md)
+

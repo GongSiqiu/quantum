@@ -585,7 +585,7 @@ in their correlations.
 ###  Quantum teleportation
 
 #### Theory: qubit teleportation involving an EPR channel and two bit transfer
-see [this](https://gongsiqiu.github.io/quantum/4-Quantum%20manipulation/Teleporting%20an%20unknown%20quantum%20state%20via%20dual%20classical%20and%20Einstein-Podolsky-Rosen%20channels.html) and [this](https://gongsiqiu.github.io/quantum/4-Quantum%20manipulation/Experimental%20quantum%20teleportation.html)
+see [this](https://gongsiqiu.github.io/quantum/4-Quantum%20manipulation/Teleporting%20an%20unknown%20quantum%20state%20via%20dual%20classical%20and%20Einstein-Podolsky-Rosen%20channels.html) and [this](https://gongsiqiu.github.io/quantum/4-Quantum%20manipulation/Experimental%20quantum%20teleportation.html)
 
 #### Open-destination quantum teleportation
 
@@ -735,10 +735,99 @@ $$ F>1 / 2
 Though it seems that only a rather special example, single bit-flip error, has been considered, the same
 method actually applies to the arbitrary mixed states
 ρ ab , provided that they contain a sufficiently large fraction F > 1/2 of photon pairs in a maximally entangled state. This works as follows: one can first purify
-away single bit-flip errors; phase errors can then be easily transformed into bit-flip errors by a $$ 
-45^{\circ}
- $$ polarization
+away single bit-flip errors; phase errors can then be easily transformed into bit-flip errors by a $$ 45^{\circ} $$ polarization
 rotation and treated in a subsequent purification step. 
 
 ![purification](../image/purification.png)
 
+### Quantum memory and quantum repeaters
+
+The quantum repeater protocol provides a
+blueprint of a general framework to remedy this problem by nesting entanglement purification and swapping
+steps. Once constructed it would enable one to establish
+high-quality long-distance entanglement with resources
+increasing only polynomially with transmission distance.
+
+#### Quantum repeater protocol
+
+The quantum repeater protocol comprises three elements:
+
+1.  A method for creation of entanglement between
+    particles at distant nodes, which uses auxiliary particles at intermediate “connection points” and a
+    nested purification protocol.
+2. Entanglement purification, even with imperfect
+    means.
+3. A protocol for which the time needed for entanglement creation scales polynomially, whereas the
+    required material resources per connection point
+    grow only logarithmically with the distance.
+
+![1553955167172](../image/genentangle.png)
+
+Figure 32 is a schematic of a setup for entangling two
+atomic ensembles (optically-thick atomic cells of $$N_\alpha$$ identical atoms) L and R which are spatially separated within
+the channel attenuation length. A pair of metastable
+lower states $$|g\rangle$$ and $$|s\rangle$$  can correspond to hyperfine or
+Zeeman sublevels of electronic ground states of alkali
+atoms.
+
+All the atoms are initially prepared in the ground
+states $$ 
+| g \rangle_{i}
+ $$ . A sample is illuminated by a short, off-
+resonant laser pulse that induces Raman transitions
+into states $$ 
+| s \rangle_{i}
+ $$ . Particularly important is the forward-scattered Stokes light (the signal mode $$ 
+\hat{a}
+ $$). It is uniquely correlated with the excitation
+the symmetric collective atomic mode $$\hat{S} \equiv\left(1 / \sqrt{N_{a}}\right) \sum_{i} | g \rangle_{i i}\langle s|$$
+, where the
+summation is taken over all the atoms. The light-atom
+interaction generates, after the interaction time $$ 
+t_{\Delta}
+ $$ , a
+two-mode ($$ 
+\hat{a} \text { and } \hat{S}
+ $$) squeezed state, with the squeezing parameter $$ 
+r_{c}
+ $$ proportional $$ 
+t_\Delta
+ $$ . If $$ 
+t_\Delta
+ $$ is very small, the two-mode squeezed
+state can be written in the perturbative form
+$$
+| \zeta \rangle=| 0_{a} \rangle | 0_{p} \rangle+\sqrt{p_{c}} \hat{S}^{\dagger} \hat{a}^{\dagger} | 0_{a} \rangle | 0_{p} \rangle+O\left(p_{c}\right)\tag{*}
+$$
+where $$ 
+p_{c}=\tanh ^{2} r_{c} \ll 1
+ $$ is the small excitation probability and $$ 
+O\left(p_{c}\right)
+ $$ represents the terms with more excitations,
+whose probabilities are equal or smaller than $$ 
+p_{c}^{2}
+ $$ . The
+Hilbert space vectors $$ 
+| 0_{a} \rangle \text { and } | 0_{p} \rangle
+ $$ are, respectively,
+the
+atomic and photonic vacuum states with $$ 
+| 0_{a} \rangle \equiv \otimes_{i} | g \rangle_{i}
+ $$ .
+For a large $$N_a$$ , the collectively enhanced signal-to-noise
+ratio may strongly boost the efficiency of the scheme.
+
+Though the DLCZ scheme does not meet all the criteria for long-distance quantum communication, it provides a promising approach to a fully controllable single-photon source based on atomic ensembles, which seems
+to be much easier for experimental demonstrations. Let
+us summarize the basic ideas behind it. The atomic ensemble generates a correlated state in Eq(*) , which is
+an exact analog of the SPDC radiation. By measuring
+the forward signal mode with a single-photon detector,
+under the condition that the detector clicks, the collective atomic mode is projected to a single-excitation state.
+Such excitations can be stored for a reasonably long time
+in metastable states (the so-called ground-state manifold) of the atoms. On demand the single-atomic excitation can be transferred to a single photon (still within the
+storage time) with a method described in the next section. This is with fully controllable properties: the emitted single-photon pulse is directed forward; the emission
+time is controllable by the repumping time; and the pulse
+shape is controllable by varying the time dependence of
+the Rabi frequency of the repumping pulse.
+
+#### Quantum state transfer between matter and photons
