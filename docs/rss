@@ -4,7 +4,7 @@
         <description><![CDATA[Record the note when I read the papers about quantum]]></description>
         <link>http://home.ustc.edu.cn/~gongsiqiu/_book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Apr 2019 12:45:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 May 2019 08:35:55 GMT</lastBuildDate>
         <atom:link href="http://home.ustc.edu.cn/~gongsiqiu/_book/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Gong Siqiu (龚思秋)]]></author>
         <managingEditor><![CDATA[gongsiqiu@mail.ustc.edu.cn]]></managingEditor>
@@ -329,6 +329,13 @@ two parts so that both parts are necessary to reconstruct the original qubit.]]>
             <description><![CDATA[测试30m干涉的稳定性，尝试利用PID和压电陶瓷稳定相位，练习SPDC源收光。]]></description>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/4.9~4.12.html</link>
             <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/4.9~4.12.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[5.13~5.17]]></title>
+            <description><![CDATA[测激光器波长分布、收拾实验室]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/5.13~5.17.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/5.13~5.17.html</guid>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
     </channel>
