@@ -32,9 +32,11 @@
 
 ## Lab Weekly Journal 
  - [Lab Weekly Journal](9-Lab weekly journal/README.md)
-  * [4.01~4.07](9-Lab weekly journal/4.01~4.07.md)
-  * [4.09~4.12](9-Lab weekly journal/4.09~4.12.md)
-  * [4.15~4.19](9-Lab weekly journal/4.15~4.19.md)
-  * [4.22~4.26](9-Lab weekly journal/4.22~4.26.md)
-  * [5.13~5.17](9-Lab weekly journal/5.13~5.17.md)
+  - 2019
+    * [04.01~04.07](9-Lab weekly journal/2019/04.01~04.07.md)
+    * [04.09~04.12](9-Lab weekly journal/2019/04.09~04.12.md)
+    * [04.15~04.19](9-Lab weekly journal/2019/04.15~04.19.md)
+    * [04.22~04.26](9-Lab weekly journal/2019/04.22~04.26.md)
+    * [05.13~05.17](9-Lab weekly journal/2019/05.13~05.17.md)
+    * [05.20~05.31](9-Lab weekly journal/2019/05.20~05.31.md)
 
