@@ -30,7 +30,7 @@ One EPR particle (particle 2) is given to Alice, while the other (particle 3) is
 To couple the first particle with the EPR pair, Alice
 performs a complete measurement of the von Neumann
 type on the joint system consisting of particle 1 and particle 2 (her EPR particle). This measurement is performed
-in the Bell operator basis consisting of $$|\Psi_{12}^{(-)}$$ and
+in the Bell operator basis consisting of $$|\Psi_{12}^{(-)}\rangle$$ and
 $$
 |\Psi_{23}^{(+)}\rangle=\sqrt{\frac{1}{2}}(|\uparrow_2 \rangle|\downarrow_3 \rangle+|\downarrow_2 \rangle|\uparrow_3 \rangle)
 $$

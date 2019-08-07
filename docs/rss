@@ -4,7 +4,7 @@
         <description><![CDATA[Record the note when I read the papers about quantum]]></description>
         <link>http://home.ustc.edu.cn/~gongsiqiu/_book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 10 Jun 2019 07:51:13 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Aug 2019 08:06:47 GMT</lastBuildDate>
         <atom:link href="http://home.ustc.edu.cn/~gongsiqiu/_book/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Gong Siqiu (龚思秋)]]></author>
         <managingEditor><![CDATA[gongsiqiu@mail.ustc.edu.cn]]></managingEditor>
@@ -351,6 +351,13 @@ Direct Electric-field Reconstruction）方法测激光器不同波长之间的�
             <description><![CDATA[测试PBS、BD的透过率，反射镜的反射率。搭纠缠源。]]></description>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/06.03~06.06.html</link>
             <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/06.03~06.06.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[6.28~7.30]]></title>
+            <description><![CDATA[绘制用于GBS负反馈稳相的电路板，补偿激光器色散，搭纠缠源]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/06.28~07.30.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/06.28~07.30.html</guid>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
     </channel>
