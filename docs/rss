@@ -4,7 +4,7 @@
         <description><![CDATA[Record the note when I read the papers about quantum]]></description>
         <link>http://home.ustc.edu.cn/~gongsiqiu/_book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 18 Aug 2019 09:57:33 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Aug 2019 09:59:54 GMT</lastBuildDate>
         <atom:link href="http://home.ustc.edu.cn/~gongsiqiu/_book/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Gong Siqiu (龚思秋)]]></author>
         <managingEditor><![CDATA[gongsiqiu@mail.ustc.edu.cn]]></managingEditor>
@@ -164,12 +164,6 @@ information protocols for quantum communication (e.g., quantum teleportation, en
 scope of our review to “few photon” phenomena involving measurements of discrete observables.]]></description>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Multi-photon entanglement and interferometry.html</link>
             <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Multi-photon entanglement and interferometry.html</guid>
-            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[No title]]></title>
-            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/The Computational Complexity of Linear Optics.html</link>
-            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/The Computational Complexity of Linear Optics.html</guid>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
         <item>

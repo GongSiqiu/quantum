@@ -15,7 +15,6 @@
   * [Gaussian Boson Sampling](3-Boson sampling/Gaussian Boson Sampling.md)
   * [Interference Of Identical Particles From Entanglement To Boson Sampling](3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.md)
   * [Multi Photon Entanglement And Interferometry](3-Boson sampling/Multi-photon entanglement and interferometry.md)
-  * [The Computational Complexity Of Linear Optics](3-Boson sampling/The Computational Complexity of Linear Optics.md)
   * [Time Bin Encoded Boson Sampling With A Single Photon Device](3-Boson sampling/Time-Bin-Encoded Boson Sampling with a Single-Photon Device.md)
 - [Quantum Manipulation](4-Quantum manipulation/README.md)
   * [12 Photon Entanglement And Scalable Scattershot Boson Sampling With Optimal Entangled Photon Pairs From Parametric Down Conversion](4-Quantum manipulation/12-photon entanglement and scalable scattershot boson sampling with optimal entangled-photon pairs from parametric down-conversion.md)
