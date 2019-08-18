@@ -4,7 +4,7 @@
         <description><![CDATA[Record the note when I read the papers about quantum]]></description>
         <link>http://home.ustc.edu.cn/~gongsiqiu/_book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Aug 2019 08:06:47 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Aug 2019 09:57:33 GMT</lastBuildDate>
         <atom:link href="http://home.ustc.edu.cn/~gongsiqiu/_book/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Gong Siqiu (龚思秋)]]></author>
         <managingEditor><![CDATA[gongsiqiu@mail.ustc.edu.cn]]></managingEditor>
@@ -140,6 +140,13 @@ independently, enabling a much better approximation of a source of single photon
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
         <item>
+            <title><![CDATA[Gaussian Boson Sampling{{"Zhong2019"|cite}}]]></title>
+            <description><![CDATA[##　Promise]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Gaussian Boson Sampling.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Gaussian Boson Sampling.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
             <title><![CDATA[Interference of identical particles from entanglement to boson-sampling{{"Tichy2014"|cite}}]]></title>
             <description><![CDATA[This tutorial introduces the physics of many-boson and many-fermion interference required for the description of current experiments and for the understanding of novel approaches to quantum computing.]]></description>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.html</link>
@@ -157,6 +164,12 @@ information protocols for quantum communication (e.g., quantum teleportation, en
 scope of our review to “few photon” phenomena involving measurements of discrete observables.]]></description>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Multi-photon entanglement and interferometry.html</link>
             <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Multi-photon entanglement and interferometry.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/The Computational Complexity of Linear Optics.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/The Computational Complexity of Linear Optics.html</guid>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
         <item>
