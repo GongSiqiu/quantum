@@ -4,7 +4,7 @@
         <description><![CDATA[Record the note when I read the papers about quantum]]></description>
         <link>http://home.ustc.edu.cn/~gongsiqiu/_book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 18 Aug 2019 10:00:20 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Aug 2019 08:00:23 GMT</lastBuildDate>
         <atom:link href="http://home.ustc.edu.cn/~gongsiqiu/_book/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Gong Siqiu (龚思秋)]]></author>
         <managingEditor><![CDATA[gongsiqiu@mail.ustc.edu.cn]]></managingEditor>
@@ -141,7 +141,17 @@ independently, enabling a much better approximation of a source of single photon
         </item>
         <item>
             <title><![CDATA[Gaussian Boson Sampling{{"Zhong2019"|cite}}]]></title>
-            <description><![CDATA[##　Promise]]></description>
+            <description><![CDATA[Contrary to the existing protocols,
+where the sampling matrix is directly given by the unitary of
+the interferometer, here the sampling matrix absorbs both the action of the interferometer and the overall shape of the
+Gaussian input state. We use a coherent superposition of all
+N-photon patterns from the Gaussian input and we do not
+herald an exact input pattern, as opposed to the other
+protocols where both input and output patterns determine
+the sampling problem. These two observations loosen the
+requirement on having single photon Fock states at the input
+and we are able to retain higher order photon number
+contributions from the same input mode.]]></description>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Gaussian Boson Sampling.html</link>
             <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Gaussian Boson Sampling.html</guid>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
@@ -164,6 +174,24 @@ information protocols for quantum communication (e.g., quantum teleportation, en
 scope of our review to “few photon” phenomena involving measurements of discrete observables.]]></description>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Multi-photon entanglement and interferometry.html</link>
             <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Multi-photon entanglement and interferometry.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Quantum information with Gaussian states]]></title>
+            <description><![CDATA[Consider the single-mode field. We have photon-number operator, N̂ . Any
+Fock state $$|l\rangle$$ is an eigen-state of photon-number operator, i.e., $$\hat{N} |l\rangle = l|l\rangle$$.Also, we have creation operator $$a^†$$ and annihilation operator $$a$$
+and $$\hat{N} = a^† a$$
+$$
+a^\dagger a|l\rangle=l|l\rangle
+$$
+$$
+a^\dagger|l\rangle =\sqrt{l+1}|l+1\rangle
+$$
+$$
+a|l\rangle=\sqrt{l}|l-1\rangle
+$$]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Quantum information with Gaussian states.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/3-Boson sampling/Quantum information with Gaussian states.html</guid>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
         <item>
@@ -365,6 +393,12 @@ Direct Electric-field Reconstruction）方法测激光器不同波长之间的�
             <description><![CDATA[绘制用于GBS负反馈稳相的电路板，补偿激光器色散，搭纠缠源]]></description>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/06.28~07.30.html</link>
             <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/06.28~07.30.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[8.30 与江老师谈话纪要]]></title>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/08.30.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/08.30.html</guid>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
     </channel>

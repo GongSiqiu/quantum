@@ -22,7 +22,7 @@ $$
 $$
 
 $$
-|l\rangle=\frac{{a^\dagger}^l}{\sqrt{l!}}|0\rangle
+|l\rangle=\frac{a^{\dagger^l}}{\sqrt{l!}}|0\rangle
 $$
 
 $$
