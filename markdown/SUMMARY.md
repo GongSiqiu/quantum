@@ -43,4 +43,5 @@
     * [05.20~05.31](9-Lab weekly journal/2019/05.20~05.31.md)
     * [06.03~06.06](9-Lab weekly journal/2019/06.03~06.06.md)
     * [06.28~07.30](9-Lab weekly journal/2019/06.28~07.30.md)
+    * [08.30](9-Lab weekly journal/2019/08.30.md)
 
