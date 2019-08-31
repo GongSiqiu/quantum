@@ -4,9 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Quantum Notes by Gong Siqiu (龚思秋)Gaussian Boson Sampling</title>
+        <title>Gaussian Boson Sampling · The note of quantum</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Record the note when I read the papers about quantum.(maybe most of them are just extracted from the papers)"><meta name="keywords" content="note,quantum">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
         <meta name="author" content="Gong Siqiu (龚思秋)">
         
@@ -353,12 +353,27 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.4" data-path="Time-Bin-Encoded Boson Sampling with a Single-Photon Device.html">
+        <li class="chapter " data-level="1.4.4" data-path="Quantum information with Gaussian states.html">
+            
+                <a href="Quantum information with Gaussian states.html">
+            
+                    
+                        <b>1.4.4.</b>
+                    
+                    Quantum Information With Gaussian States
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="Time-Bin-Encoded Boson Sampling with a Single-Photon Device.html">
             
                 <a href="Time-Bin-Encoded Boson Sampling with a Single-Photon Device.html">
             
                     
-                        <b>1.4.4.</b>
+                        <b>1.4.5.</b>
                     
                     Time Bin Encoded Boson Sampling With A Single Photon Device
             
@@ -816,6 +831,17 @@
                                 <section class="normal markdown-section">
                                 
                                 <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#gaussian-boson-sampling9"><b>1.4.1. </b>Gaussian Boson Sampling[9]</a></li><ul><li><span class="title-icon "></span><a href="#&#x3000;promise"><b>1.4.1.1. </b>&#x3000;Promise</a></li><li><span class="title-icon "></span><a href="#challenge"><b>1.4.1.2. </b>Challenge</a></li><li><span class="title-icon "></span><a href="#realization"><b>1.4.1.3. </b>Realization</a></li><li><span class="title-icon "></span><a href="#the-hypotheses-to-be-ruled-out"><b>1.4.1.4. </b>The hypotheses to be ruled out</a></li><ul><li><span class="title-icon "></span><a href="#likelihood-ratio-test13"><b>1.4.1.4.1. </b>likelihood ratio test[13]</a></li></ul><li><span class="title-icon "></span><a href="#error"><b>1.4.1.5. </b>Error</a></li><li><span class="title-icon "></span><a href="#concepts"><b>1.4.1.6. </b>Concepts</a></li></ul></ul></div><a href="#gaussian-boson-sampling9" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="gaussian-boson-sampling9"><a name="gaussian-boson-sampling9" class="anchor-navigation-ex-anchor" href="#gaussian-boson-sampling9"><i class="fa fa-link" aria-hidden="true"></i></a>1.4.1. Gaussian Boson Sampling[9]</h1>
+<p>Contrary to the existing protocols,
+where the sampling matrix is directly given by the unitary of
+the interferometer, here the sampling matrix absorbs both the action of the interferometer and the overall shape of the
+Gaussian input state. We use a coherent superposition of all
+N-photon patterns from the Gaussian input and we do not
+herald an exact input pattern, as opposed to the other
+protocols where both input and output patterns determine
+the sampling problem. These two observations loosen the
+requirement on having single photon Fock states at the input
+and we are able to retain higher order photon number
+contributions from the same input mode.</p>
 <h2 id="&#x3000;promise"><a name="&#x3000;promise" class="anchor-navigation-ex-anchor" href="#&#x3000;promise"><i class="fa fa-link" aria-hidden="true"></i></a>1.4.1.1. &#x3000;Promise</h2>
 <ol>
 <li>significantly enhances the photon generation probability</li>
@@ -826,15 +852,19 @@
 </ol>
 <h2 id="challenge"><a name="challenge" class="anchor-navigation-ex-anchor" href="#challenge"><i class="fa fa-link" aria-hidden="true"></i></a>1.4.1.2. Challenge</h2>
 <ol>
-<li>reliable sources
-of single photons</li>
-<li>The most crucial resource for performing the GBS is degenerate
+<li><p>reliable sources
+of single photons</p>
+</li>
+<li><p>The most crucial resource for performing the GBS is degenerate
 squeezed vacuum state with high efficiency and high purity, simul-
 taneously. Possible frequency correlation in the PDC will either
 reduce the Hong-Ou-Mandel quantum interference visibility or
-reduce the efficiency by passive spectral filtering</li>
-<li>the relative input
-phases of each PDC can also affect the sampling distribution in the GBS</li>
+reduce the efficiency by passive spectral filtering</p>
+</li>
+<li><p>the relative input
+phases of each PDC can also affect the sampling distribution in the GBS</p>
+<p>In <a href="../References.html#cite-9">[9]</a>, only one second is selected to analyze. In this way, the change of phase is small.</p>
+</li>
 </ol>
 <h2 id="realization"><a name="realization" class="anchor-navigation-ex-anchor" href="#realization"><i class="fa fa-link" aria-hidden="true"></i></a>1.4.1.3. Realization</h2>
 <ol>
@@ -961,6 +991,18 @@ x)^{2}={\frac {\hbar }{2m\omega }}\mathrm {e} ^{-2\zeta }\qquad
 <h4 id="max-haf-problem"><a name="max-haf-problem" class="anchor-navigation-ex-anchor" href="#max-haf-problem"><i class="fa fa-link" aria-hidden="true"></i></a>max-Haf problem</h4>
 <p>The goal is to find a k-
 vertex subgraph with the largest Hafnian (in absolute value).</p>
+<h4 id="hafnian"><a name="hafnian" class="anchor-navigation-ex-anchor" href="#hafnian"><i class="fa fa-link" aria-hidden="true"></i></a>Hafnian</h4>
+<p>In mathematics, the hafnian of an adjacency matrix of a graph is the number of perfect matchings in the graph.</p>
+<p>The hafnian of a 2n &#xD7; 2n symmetric matrix is computed as</p>
+<p><script type="math/tex; mode=display">
+{\displaystyle \operatorname {haf} (A)={\frac {1}{n!2^{n}}}\sum _{\sigma \in S_{2n}}\prod _{j=1}^{n}A_{\sigma (2j-1),\sigma (2j)},}
+</script></p>
+<p> where <script type="math/tex; ">\displaystyle{S_{2n}}</script> is the symmetric group on [<em>2n</em>].</p>
+<p>Equivalently,
+<script type="math/tex; mode=display">
+\operatorname {haf}(A)=\sum_{M\in {\mathcal{M}}}\prod_{\scriptscriptstyle(u,v)\in M}A_{u,v}
+</script>
+where <script type="math/tex; ">{\mathcal{M}}</script> is the set of all 1-factors (perfect matchings) on the complete graph <script type="math/tex; ">{\displaystyle K_{2n}}</script>, namely the set of all <script type="math/tex; "> {\displaystyle (2n)!/(n!2^{n})} </script>ways to partition the set <script type="math/tex; ">{\displaystyle \{1,2,\dots ,2n\}}</script> into <script type="math/tex; ">n</script> subsets of size <script type="math/tex; ">2</script>.</p>
 <h4 id="wigner-function"><a name="wigner-function" class="anchor-navigation-ex-anchor" href="#wigner-function"><i class="fa fa-link" aria-hidden="true"></i></a>Wigner function</h4>
 <p>The goal was to link the wavefunction that appears in Schr&#xF6;dinger&apos;s equation to a probability distribution in phase space. 
 <script type="math/tex; mode=display">
@@ -969,9 +1011,9 @@ vertex subgraph with the largest Hafnian (in absolute value).</p>
 {\vec {s}}/2)\psi ({\vec {r}}-\hbar {\vec {s}}/2)e^{i{\vec {p}}\cdot 
 {\vec {s}}}\,d^{3}s.}
 </script></p>
-
-
-
+<div id="title---">Quantum Notes by Gong Siqiu (&#x9F9A;&#x601D;&#x79CB;)Gaussian Boson Sampling</div>
+<div id="meta-keywords---">note,quantum</div>
+<div id="meta-description---">Record the note when I read the papers about quantum.(maybe most of them are just extracted from the papers)</div>
                                 
                                 </section>
                             
@@ -1014,7 +1056,7 @@ vertex subgraph with the largest Hafnian (in absolute value).</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Gaussian Boson Sampling","level":"1.4.1","depth":2,"next":{"title":"Interference Of Identical Particles From Entanglement To Boson Sampling","level":"1.4.2","depth":2,"path":"3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.md","ref":"3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.md","articles":[]},"previous":{"title":"Boson Sampling","level":"1.4","depth":1,"path":"3-Boson sampling/README.md","ref":"3-Boson sampling/README.md","articles":[{"title":"Gaussian Boson Sampling","level":"1.4.1","depth":2,"path":"3-Boson sampling/Gaussian Boson Sampling.md","ref":"3-Boson sampling/Gaussian Boson Sampling.md","articles":[]},{"title":"Interference Of Identical Particles From Entanglement To Boson Sampling","level":"1.4.2","depth":2,"path":"3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.md","ref":"3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.md","articles":[]},{"title":"Multi Photon Entanglement And Interferometry","level":"1.4.3","depth":2,"path":"3-Boson sampling/Multi-photon entanglement and interferometry.md","ref":"3-Boson sampling/Multi-photon entanglement and interferometry.md","articles":[]},{"title":"Time Bin Encoded Boson Sampling With A Single Photon Device","level":"1.4.4","depth":2,"path":"3-Boson sampling/Time-Bin-Encoded Boson Sampling with a Single-Photon Device.md","ref":"3-Boson sampling/Time-Bin-Encoded Boson Sampling with a Single-Photon Device.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["mathjax","embed-pdf","bibtex","myseo","3-ba","ga","github","rss","-sharing","sharing-plus","anchor-navigation-ex","expandable-chapters"],"root":"/markdown","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/GongSiqiu"},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"bibtex":{"bibliography":"literature.bib","tocfile":"/References"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"myseo":{"description":"Record the note when I read the papers about quantum.(maybe most of them are just extracted from the papers)","keywords":"note,quantum","titlePrefix":"Quantum Notes by Gong Siqiu (龚思秋)"},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":["quantum"],"title":"The note of quantum","description":"Record the note when I read the papers about quantum","author":"Gong Siqiu (龚思秋)","feed_url":"http://home.ustc.edu.cn/~gongsiqiu/_book/rss","site_url":"http://home.ustc.edu.cn/~gongsiqiu/_book/","managingEditor":"gongsiqiu@mail.ustc.edu.cn","webMaster":"gongsiqiu@mail.ustc.edu.cn"},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"3-ba":{"configuration":"auto","token":"7e77749cb7b33ala138elc693fdfddfc"},"mathjax":{"forceSVG":false,"version":"2.7.1"},"ga":{"configuration":"auto","token":"UA-131563337-1 "},"sharing":{"qq":true,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":true,"vk":false,"pocket":false,"google":true,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"embed-pdf":{},"expandable-chapters":{}},"theme":"default","author":"Gong Siqiu (龚思秋)","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"The note of quantum","variables":{},"title":"The note of quantum","language":"en","gitbook":"*","description":"Record the note when I read the papers about quantum.(maybe most of them are just extracted from the papers)"},"file":{"path":"3-Boson sampling/Gaussian Boson Sampling.md","mtime":"2019-08-18T09:22:13.664Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-18T10:00:14.516Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Gaussian Boson Sampling","level":"1.4.1","depth":2,"next":{"title":"Interference Of Identical Particles From Entanglement To Boson Sampling","level":"1.4.2","depth":2,"path":"3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.md","ref":"3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.md","articles":[]},"previous":{"title":"Boson Sampling","level":"1.4","depth":1,"path":"3-Boson sampling/README.md","ref":"3-Boson sampling/README.md","articles":[{"title":"Gaussian Boson Sampling","level":"1.4.1","depth":2,"path":"3-Boson sampling/Gaussian Boson Sampling.md","ref":"3-Boson sampling/Gaussian Boson Sampling.md","articles":[]},{"title":"Interference Of Identical Particles From Entanglement To Boson Sampling","level":"1.4.2","depth":2,"path":"3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.md","ref":"3-Boson sampling/Interference of identical particles from entanglement to boson-sampling.md","articles":[]},{"title":"Multi Photon Entanglement And Interferometry","level":"1.4.3","depth":2,"path":"3-Boson sampling/Multi-photon entanglement and interferometry.md","ref":"3-Boson sampling/Multi-photon entanglement and interferometry.md","articles":[]},{"title":"Quantum Information With Gaussian States","level":"1.4.4","depth":2,"path":"3-Boson sampling/Quantum information with Gaussian states.md","ref":"3-Boson sampling/Quantum information with Gaussian states.md","articles":[]},{"title":"Time Bin Encoded Boson Sampling With A Single Photon Device","level":"1.4.5","depth":2,"path":"3-Boson sampling/Time-Bin-Encoded Boson Sampling with a Single-Photon Device.md","ref":"3-Boson sampling/Time-Bin-Encoded Boson Sampling with a Single-Photon Device.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["mathjax","embed-pdf","bibtex","myseo","3-ba","ga","github","rss","-sharing","sharing-plus","anchor-navigation-ex","expandable-chapters"],"root":"/markdown","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/GongSiqiu"},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"bibtex":{"bibliography":"literature.bib","tocfile":"/References"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"myseo":{"description":"Record the note when I read the papers about quantum.(maybe most of them are just extracted from the papers)","keywords":"note,quantum","titlePrefix":"Quantum Notes by Gong Siqiu (龚思秋)"},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":["quantum"],"title":"The note of quantum","description":"Record the note when I read the papers about quantum","author":"Gong Siqiu (龚思秋)","feed_url":"http://home.ustc.edu.cn/~gongsiqiu/_book/rss","site_url":"http://home.ustc.edu.cn/~gongsiqiu/_book/","managingEditor":"gongsiqiu@mail.ustc.edu.cn","webMaster":"gongsiqiu@mail.ustc.edu.cn"},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"3-ba":{"configuration":"auto","token":"7e77749cb7b33ala138elc693fdfddfc"},"mathjax":{"forceSVG":false,"version":"2.7.1"},"ga":{"configuration":"auto","token":"UA-131563337-1 "},"sharing":{"qq":true,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":true,"vk":false,"pocket":false,"google":true,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"embed-pdf":{},"expandable-chapters":{}},"theme":"default","author":"Gong Siqiu (龚思秋)","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"The note of quantum","variables":{},"title":"The note of quantum","language":"en","gitbook":"*","description":"Record the note when I read the papers about quantum.(maybe most of them are just extracted from the papers)"},"file":{"path":"3-Boson sampling/Gaussian Boson Sampling.md","mtime":"2019-08-31T07:38:20.340Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-31T07:39:57.209Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

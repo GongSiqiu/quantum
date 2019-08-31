@@ -1,5 +1,17 @@
 # Gaussian Boson Sampling{{"Zhong2019"|cite}}
 
+Contrary to the existing protocols,
+where the sampling matrix is directly given by the unitary of
+the interferometer, here the sampling matrix absorbs both the action of the interferometer and the overall shape of the
+Gaussian input state. We use a coherent superposition of all
+N-photon patterns from the Gaussian input and we do not
+herald an exact input pattern, as opposed to the other
+protocols where both input and output patterns determine
+the sampling problem. These two observations loosen the
+requirement on having single photon Fock states at the input
+and we are able to retain higher order photon number
+contributions from the same input mode.
+
 ##　Promise
 
 1. significantly enhances the photon generation probability
@@ -12,13 +24,17 @@
 
 1. reliable sources
    of single photons
+   
 2. The most crucial resource for performing the GBS is degenerate
    squeezed vacuum state with high efficiency and high purity, simul-
    taneously. Possible frequency correlation in the PDC will either
    reduce the Hong-Ou-Mandel quantum interference visibility or
    reduce the efficiency by passive spectral filtering
+   
 3. the relative input
    phases of each PDC can also affect the sampling distribution in the GBS
+   
+   In {{"Zhong2019"|cite}}, only one second is selected to analyze. In this way, the change of phase is small.
 
 ## Realization
 
@@ -168,6 +184,25 @@ an element of a Fock space with a well-defined number of particles
 
 The goal is to find a k-
 vertex subgraph with the largest Hafnian (in absolute value).
+
+#### Hafnian
+
+In mathematics, the hafnian of an adjacency matrix of a graph is the number of perfect matchings in the graph.
+
+The hafnian of a 2n × 2n symmetric matrix is computed as
+
+
+$$
+{\displaystyle \operatorname {haf} (A)={\frac {1}{n!2^{n}}}\sum _{\sigma \in S_{2n}}\prod _{j=1}^{n}A_{\sigma (2j-1),\sigma (2j)},}
+$$
+
+ where $$\displaystyle{S_{2n}}$$ is the symmetric group on [*2n*].
+
+Equivalently,
+$$
+\operatorname {haf}(A)=\sum_{M\in {\mathcal{M}}}\prod_{\scriptscriptstyle(u,v)\in M}A_{u,v}
+$$
+where $${\mathcal{M}}$$ is the set of all 1-factors (perfect matchings) on the complete graph $${\displaystyle K_{2n}}$$, namely the set of all $$ {\displaystyle (2n)!/(n!2^{n})} $$ways to partition the set $${\displaystyle \{1,2,\dots ,2n\}}$$ into $$n$$ subsets of size $$2$$.
 
 #### Wigner function
 
