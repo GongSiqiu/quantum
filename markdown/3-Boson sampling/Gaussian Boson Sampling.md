@@ -22,12 +22,10 @@ contributions from the same input mode.
 
 ## Challenge
 
-1. reliable sources
-   of single photons
+1. reliable sources of single photons
    
 2. The most crucial resource for performing the GBS is degenerate
-   squeezed vacuum state with high efficiency and high purity, simul-
-   taneously. Possible frequency correlation in the PDC will either
+   squeezed vacuum state with high efficiency and high purity, simultaneously. Possible frequency correlation in the PDC will either
    reduce the Hong-Ou-Mandel quantum interference visibility or
    reduce the efficiency by passive spectral filtering
    
