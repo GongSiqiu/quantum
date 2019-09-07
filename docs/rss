@@ -4,7 +4,7 @@
         <description><![CDATA[Record the note when I read the papers about quantum]]></description>
         <link>http://home.ustc.edu.cn/~gongsiqiu/_book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 31 Aug 2019 08:04:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Sep 2019 08:56:31 GMT</lastBuildDate>
         <atom:link href="http://home.ustc.edu.cn/~gongsiqiu/_book/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Gong Siqiu (龚思秋)]]></author>
         <managingEditor><![CDATA[gongsiqiu@mail.ustc.edu.cn]]></managingEditor>
@@ -399,6 +399,13 @@ Direct Electric-field Reconstruction）方法测激光器不同波长之间的�
             <title><![CDATA[8.30 与江老师谈话纪要]]></title>
             <link>http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/08.30.html</link>
             <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/08.30.html</guid>
+            <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[9.2~9.6]]></title>
+            <description><![CDATA[嘉立创上下单]]></description>
+            <link>http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/09.02~09.06.html</link>
+            <guid isPermaLink="true">http://home.ustc.edu.cn/~gongsiqiu/_book/9-Lab weekly journal/2019/09.02~09.06.html</guid>
             <dc:creator><![CDATA[Gong Siqiu (龚思秋)]]></dc:creator>
         </item>
     </channel>
